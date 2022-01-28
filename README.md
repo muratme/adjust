@@ -27,7 +27,10 @@ Setup Guide
 
 5- Following VM Arguments are Optional : 
 
-*You can run tests in parallel, crossbrowser supported [chrome, firefox] or use browser in headless mode
+* Run tests in parallel, 
+* CrossBrowser [chrome, firefox], 
+* Remote WebDriver [Selenoid, SeleniumGrid]
+* Headless mode
 
 ```
 -Djunit.jupiter.execution.parallel.enabled=true
